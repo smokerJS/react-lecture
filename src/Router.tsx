@@ -7,6 +7,8 @@ import Study2Page from "pages/study2";
 import Study3Page from "pages/study3";
 import Study4Page from "pages/study4";
 import TodoListPage from "pages/todoList";
+import TodoListContextPage from "pages/todoListContext";
+import TodoListRecoilPage from "pages/todoListRecoil";
 
 const Router = () => {
   return (
@@ -18,6 +20,11 @@ const Router = () => {
         <Route path={Path.STUDY3} element={<Study3Page />} />
         <Route path={Path.STUDY4} element={<Study4Page />} />
         <Route path={Path.TODO_LIST} element={<TodoListPage />} />
+        <Route
+          path={Path.TODO_LIST_CONTEXT}
+          element={<TodoListContextPage />}
+        />
+        <Route path={Path.TODO_LIST_RECOIL} element={<TodoListRecoilPage />} />
       </Routes>
     </BrowserRouter>
   );

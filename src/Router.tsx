@@ -9,6 +9,7 @@ import Study4Page from "pages/study4";
 import TodoListPage from "pages/todoList";
 import TodoListContextPage from "pages/todoListContext";
 import TodoListRecoilPage from "pages/todoListRecoil";
+import BoardPage from "pages/board";
 
 const Router = () => {
   return (
@@ -25,6 +26,7 @@ const Router = () => {
           element={<TodoListContextPage />}
         />
         <Route path={Path.TODO_LIST_RECOIL} element={<TodoListRecoilPage />} />
+        <Route path={Path.BOARD} element={<BoardPage />} />
       </Routes>
     </BrowserRouter>
   );

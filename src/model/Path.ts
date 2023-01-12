@@ -7,6 +7,7 @@ enum Path {
   TODO_LIST = "/todoList",
   TODO_LIST_CONTEXT = "/todoListContext",
   TODO_LIST_RECOIL = "/todoListRecoil",
+  BOARD = "/board",
 }
 
 export default Path;
